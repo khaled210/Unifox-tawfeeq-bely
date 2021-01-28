@@ -1,0 +1,98 @@
+@media (max-width: 992px) {
+  section.our-expert {
+    height: 40vh !important;
+  }
+  .what-they-say {
+    height: 70vh !important;
+  }
+  .bird {
+    height: 40vh !important;
+  }
+  .bird-bar {
+    display: block;
+    padding: 20px;
+  }
+  .bird-bar h2 {
+    font-size: 18px;
+  }
+  .bird-bar button {
+    width: 120px;
+  }
+  .scrollspy-example {
+    height: 350px;
+  }
+}
+@media (max-width: 768px) {
+  section.our-expert {
+    height: 50vh !important;
+  }
+  section.our-expert .main-prog span.desc {
+    margin: 6%;
+  }
+  .our-pricing .card {
+    margin: 10px 0;
+  }
+  .scrollspy-example {
+    height: 300px;
+  }
+  .bird {
+    height: 40vh !important;
+  }
+  .bird-bar {
+    display: block;
+    padding: 20px;
+  }
+  .bird-bar h2 {
+    font-size: 18px;
+  }
+  .bird-bar button {
+    width: 120px;
+  }
+}
+
+@media (max-width: 576px) {
+  .hero .center h1.title {
+    font-size: 20px;
+  }
+  .hero .center p.desc {
+    font-size: 14px;
+  }
+  .btns-filter button {
+    font-size: 12px !important;
+  }
+  .our-pricing .card {
+    margin: 10px 0;
+  }
+  section.our-expert {
+    height: 110vh;
+  }
+  section.our-expert .main-prog .circular {
+    transform: scale(1);
+  }
+  section.our-expert .main-prog span.desc {
+    margin: 4%;
+  }
+  .video-box {
+    margin: 20px 0;
+  }
+  .what-they-say {
+    height: 150vh !important;
+  }
+  .img-area {
+    top: 40px;
+    left: 170px;
+  }
+  .bird {
+    height: 40vh !important;
+  }
+  .bird-bar {
+    display: block;
+    padding: 20px;
+  }
+  .bird-bar h2 {
+    font-size: 18px;
+  }
+  .bird-bar button {
+    width: 120px;
+  }
+}

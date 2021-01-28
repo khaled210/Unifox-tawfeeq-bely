@@ -1,0 +1,523 @@
+/************************************* glopal title */
+.glop-tit{
+    margin: auto;
+    text-align: center;
+    margin:1% 0 ;
+}
+.glop-tit .main-khat{
+    position: relative;
+    display: inline-block;
+}
+.glop-tit .one-khat{
+    width: 122px;
+    height: 2px;
+    background-color:#ddd;
+    margin: auto;
+
+}
+.glop-tit .two-khat{
+    width: 42px;
+    height: 6px;
+    background-color: #7cb62f;
+    margin: auto;
+    position: absolute;
+    left: 40px;
+    top: -2px;
+}
+
+.glop-tit h2{
+    margin-bottom: 15px; 
+    font-size: 40px;
+}
+.glop-tit p{
+    margin: 15px 0;
+    color: #333;
+    font-weight: 300;
+
+}
+/***************************************** End glopal title */
+.container{
+    margin: auto;
+    width: 80%;
+}
+/******************************************* section about-kh */
+
+
+.about-kh-content{
+    display: flex;
+    justify-content: space-between;
+}
+@media only screen and (max-width: 768px) {
+    .about-kh-content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .about-right img{
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.about-lift > h4{
+    font-size: 30px;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+}
+.about-lift > h4 > span{
+    color: #7cb62f;
+}
+.about-lift >.p-two{
+    font-size: 15px;
+    color: #333;
+    font-weight: 300;
+}
+.btn-kh{
+    background-color:rgb(96, 179, 94);
+    border:none;
+    color: white;
+    padding: 10px 40px;
+    text-align: center;
+    text-decoration:none;
+    display: inline-block;
+    font-size:20px;
+    margin: 5% 0;
+    cursor: pointer;
+    position: relative;
+    z-index: 15555555;   
+}
+
+    
+
+
+/* about end ************************************************************ */
+
+/* our section */
+.our-kh{
+    background-color: #f7f7f7b3;
+}
+
+
+.all{
+    display: inline-block;
+    background-color: white;
+    padding: 75px 10px;
+    border-radius: 10px;
+    margin-bottom: 4%;
+ }
+ .all:hover{
+    box-shadow: 0 4px 8px 0 rgba(147, 147, 147, 0.1), 0 6px 20px 0 rgba(108, 108, 108, 0.19);
+    transition: all 0.3s;
+ }
+ 
+ .icon{
+     background-color:#a6d469;
+     display: inline-block;
+     border-radius: 50%;
+     border: #a6d469 solid 25px;
+     margin-left: 38%;
+     margin-bottom: 10px;
+ 
+ }
+ 
+ .all>.icon>i{
+    font-size: 35px;
+    text-align: center;
+    display: inline-block;
+    color: white;
+    
+ 
+ }
+ h3{
+     margin-top: 8px;
+     text-align: center;
+     font-size: 20px;
+      font-weight: 200px;
+      font-family: 'Raleway', sans-serif;   
+ }
+ .para{
+    text-align:center;
+    font-family:'Open Sans', sans-serif;
+    color:#333333;
+    font-size:15px ;
+    padding: 2px; 
+     
+}
+
+/* overlay */
+
+.overlay-kh{
+    background-image: url("../photos/img.jpg");
+    width: 100%;
+    height: 60%;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+    margin: 3% 0;
+}
+
+.overlay-dad{
+    display: flex;
+    justify-content: space-around;
+    padding: 5% 0;
+    text-align: center;
+    position: relative;
+}
+.over{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+}
+
+.foot{
+        background-color:#75a733;
+        display: inline-block; 
+        border-radius: 50%;
+        border: #75a733 solid 35px;
+        font-size: 40px;
+        color: white;
+}
+.icon1,.icon2,.icon3,.icon4{
+    color: white;
+    margin-top: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .overlay-dad{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
+/*End  overlay */
+
+
+/* end our section **************************************/
+
+/* team section */
+.team-kh{
+    margin: 5% 0;
+}
+.item img{
+    cursor: pointer;
+}
+.team-name{
+    text-align: center;
+    color: #000;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-top: 14px;
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+}
+.team-job{
+    text-align: center;
+    color: #444;
+    font-size: 12px;
+    font-weight: 500;
+    margin-bottom: 0;
+    margin-top: 7px;
+    font-family: 'Raleway', sans-serif;
+}
+.team-icon{
+    margin-top:10px ;
+    padding: 2px;
+    background-color: #252525;
+    display: inline-block;
+    width: 24%;
+}
+.item > ul{
+    padding:4% ;
+    background-color: #252525;
+    margin-top:10px;
+}
+.item > ul > li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 6%;
+    color: white;
+    cursor: pointer;
+}
+.shadow{
+    position: relative;
+}
+
+.shadow:after{
+    content: "";
+    position: absolute;
+    background-color: #7cb62f;
+    width: 0;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: ;
+    transition: all .5s;
+}
+.item:hover .shadow:after{
+    width: 100%;
+
+}
+
+.item > ul > li >i{
+    position: relative;
+    z-index: 15555555;
+}
+
+/* End team section */
+
+
+.card{
+    width: 100%;
+    margin-bottom: 5%;
+    margin-right: 10%;
+}
+.card:hover{
+    box-shadow: 0 4px 8px 0 rgba(147, 147, 147, 0.1), 0 6px 20px 0 rgba(108, 108, 108, 0.19);
+    transition: all 0.3s;
+ }
+ @media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .card{
+        width: 115%;
+    }
+}
+.card-body{
+    padding: 20px 10px;
+}
+.card-body >ul{
+    display: inline-block;
+    padding-inline-start: 0;
+}
+.card-body >ul>li{
+    display: inline-block;
+    list-style: none;
+    text-align: left;
+    font-size: 15px;
+    margin-right: 7px;
+}
+.card-body >ul>li>i{
+    margin-right: 5px;
+    color: #7cb62f;
+}
+.card-title{
+    cursor: pointer;
+    font-size: 20px;
+    text-transform: capitalize;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-weight: 500;
+    line-height: 1.1;
+}
+.card-title:hover{
+    color: #7cb62f;
+    transition: .3s;
+}
+.card-text{
+    line-height: 27px;
+    margin-bottom: 15px;
+    margin: 0 0 10px;
+    font-size: 14px;
+    font-weight: 300;
+    color: #333;
+}
+
+.btn-min{
+    background-color: #7cb62f;
+    border: #7cb62f;
+    border-radius: unset;
+    width: 150px;
+}
+.btn-min:hover{
+    background-color: #7cb62f;
+}
+
+.shadow-black{
+    position: relative;
+}
+
+.shadow-black:after{
+    content: "";
+    position: absolute;
+    background-color: #343434;
+    width: 0;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    transition: all .5s;
+}
+.shadow-black:hover:after{
+    width: 100%;
+}
+
+.card-body>button{
+    position: relative;
+    z-index: 15555555;
+}
+
+/* section contact us */
+.contact-kh{
+    margin: 2% 0 10% 0;
+    background: #f7f7f7;
+    padding: .5% 0 5% 0;
+}
+.ctntact-content{
+    display: flex;
+    justify-content: space-between;
+}
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .ctntact-content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
+
+.contact-lift>h2{
+    margin-bottom: 15px;
+    margin-top: 0;
+    text-transform: capitalize;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 1.1;
+}
+.contact-lift>p{
+    line-height: 27px;
+    margin-bottom: 15px;
+    font-size: 14px;
+    font-weight: 300;
+    color: #333;
+    width: 80%;
+}
+.contact-lift>ul{
+    margin: 0;
+    padding: 0;
+}
+.contact-lift>ul>li{
+    display: block;
+    font-weight: 500;
+    list-style: outside none none;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+    font-size: 14px;
+    font-weight: 300;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.42857143;
+    color: #333;
+}
+.contact-lift>ul>li>span{
+    border: 1px solid #7cb62f;
+    border-radius: 50%;
+    color: #333;
+    display: inline-block;
+    font-size: 16px;
+    width: 40px;
+    height: 40px;
+    line-height: 37px;
+    margin-right: 10px;
+    text-align: center;  
+}
+
+.contact-right > form{
+    margin:1% 0 0 3% ;
+}
+.inpu{
+   width: 100%;
+   height: 50px;
+   margin-bottom: 4%;
+   border: 1px solid #ddd;
+   padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+::placeholder{
+    color: rgb(186, 186, 186);
+    font-weight: 600;
+}
+.terya{
+    width: 100%;
+    height: 170px;
+    margin-bottom: 4%;
+    border: 1px solid #ddd;
+    padding: 6px 12px;
+     font-size: 14px;
+     line-height: 1.42857143;
+     color: #555;
+     background-color: #fff;
+     background-image: none;
+     border: 1px solid #ccc;
+     border-radius: 4px;
+}
+.contact-btn{
+    background-color: #7cb62f;
+    border: none;
+    color: white;
+    padding: 8px 38px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 0% 36.5%;
+    cursor: pointer;
+    position: relative;
+    z-index: 15555555;
+}
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .contact-btn{
+        width: 100%;
+        margin: 0;
+    }
+}
+
+/* End section contact us */
+
+/* scroll btn to top */
+.btn-scroll{
+    position: fixed;
+    background: linear-gradient(to right, #96c93d, #00b09b);
+    border-radius: 50%;
+    border: none;
+    bottom: 50px;
+    color: #fff;
+    cursor: pointer;
+    display: block;
+    font-size: 20px;
+    height: 45px;
+    line-height: 40px;
+    position: fixed;
+    right: 20px;
+    text-align: center;
+    width: 45px;
+    z-index: 9;
+}
+.btn-scroll>i{
+    color: white;
+
+}
+
+.Expr{
+    color: white;
+}
+p.whitepara{
+    color: white;
+}
+
+/* End scroll btn to top */
+    
+
+ 
